@@ -46,3 +46,30 @@ The rounded Down Area is: 78.00 square meters
 ## Author:
 Name: Sean Gabriel E. Velasco
 Grade and Section: 8-Adelfa
+
+# Computational Thinking
+## 1. Problem Identification
+We need a program that gets the radius of a circular garden and calculates its area, circumference, square root of the area, and the area rounded down and up.
+## 2. Problem Decomposition
+Ask for the radius
+Compute area
+Compute circumference
+Compute square root of area
+Round area down and up
+Show the results
+## 3. Pattern Recognition
+This is a basic circle problem. We can use the math library (math.pi, math.pow, math.sqrt, math.floor, math.ceil) instead of writing the formulas ourselves.
+## 4. Data Representation
+Input: radius (float)
+Outputs: area, circumference, square root, floor, ceil
+## 5. Algorithm Development
+import math
+
+Ask user for radius
+area = π × radius²
+circumference = 2 × π × radius
+squareRoot = √area
+roundedDown = floor(area)
+roundedUp = ceil(area)
+
+Display all results
