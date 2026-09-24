@@ -1,0 +1,19 @@
+## Description
+
+This program prompts the user to input the `(x, y)` coordinates for two distinct points. It then utilizes Python's built-in `math` library to perform precision geometric calculations and outputs the formatted distance.
+
+### The Formula
+The program implements the standard Euclidean distance formula:
+distance = math.sqrt(math.pow(x2-x1,2)+math.pow(y2-y1,2))
+
+## Features
+
+- Dynamic User Input: Accepts floating-point numbers for precise coordinate entry.
+- strong Math Operations: Leverages native `math.sqrt()` and `math.pow()` functions.
+- Clean Output Formatting: Automatically rounds the resulting distance to two decimal places.
+
+## How to Run
+
+1. Make sure you have **Python 3.x** installed.
+2. Download or copy the script file (e.g., `Velasco_DistanceFormula.py`).
+3. Open your terminal or command prompt and execute the script
